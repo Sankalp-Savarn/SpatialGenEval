@@ -127,7 +127,7 @@
 
     ```bash
     EVAL_MODEL_PATH="<EVAL_MODEL_PATH>"              # e.g., ./models/Qwen2.5-VL-72B-Instruct
-    YOUR_IMAGE_FOLDER="<YOUR_GENERATED_IMAGE_PATH>"  # e.g., ./images/Qwen-Image
+    YOUR_GENERATED_IMAGE_PATH="<YOUR_GENERATED_IMAGE_PATH>"  # e.g., ./images/Qwen-Image
     OUTPUT_JSON_PATH="<OUTPUT_JSON_PATH>"            # e.g., ./logs/Qwen-Image-results.jsonl
 
     bash eval_with_qwen25_vl_72b.sh \
