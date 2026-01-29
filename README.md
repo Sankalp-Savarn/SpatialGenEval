@@ -133,7 +133,7 @@
     bash eval_with_qwen25_vl_72b.sh \
         "${YOUR_GENERATED_IMAGE_PATH}" \
         "${OUTPUT_JSON_PATH}" \
-        "${EVAL_MODEL_PATH}>"
+        "${EVAL_MODEL_PATH}"
     ```
   
   - The final evaluation json results will be saved in `<OUTPUT_JSON_PATH>`.
