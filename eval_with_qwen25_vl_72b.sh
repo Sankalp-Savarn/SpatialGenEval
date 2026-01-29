@@ -24,6 +24,7 @@ echo "EVAL_MODEL_PATH: ${EVAL_MODEL_PATH}"
 # ------------------------------------------------------
 echo "====== Stage 1: MLLM Initialization ======"
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+mkdir -p logs
 log_file="./logs/vllm_server_qwen25_vl_72b.log"
 API_NAME="Qwen2.5-VL-72B-Instruct"
 nohup vllm serve "${EVAL_MODEL_PATH}" \
