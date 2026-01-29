@@ -136,15 +136,7 @@
         "${EVAL_MODEL_PATH}>"
     ```
   
-  - The results are saved as: 
-
-    ```python
-    └──<YOUR_GENERATED_IMAGE_PATH>/
-        ├── 000001.png
-        ├── 000002.png
-        ├── ...
-        ├── 001230.png
-    ```
+  - The final evaluation json results will be saved in `<OUTPUT_JSON_PATH>`.
 
 ## 📊 Evaluation Results
   
