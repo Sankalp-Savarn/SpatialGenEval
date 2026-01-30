@@ -13,7 +13,7 @@
       <img src='https://img.shields.io/badge/Arxiv-SpatialGenEval-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
     </a>
      &nbsp;
-    <a href='https://arxiv.org/abs/2601.20354'>
+    <a href='https://huggingface.co/papers/2601.20354'>
       <img src='https://img.shields.io/badge/HuggingFace-Paper-FFB000?style=flat&logo=huggingface&logoColor=white'>
     </a>
   </p>
