@@ -159,7 +159,7 @@
   ```
   @article{wang2026everything,
     title={Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models},
-    author={Wang, Zengbin and Xuecai and Wang, Yong and Xiong, Feng and Zhang, Man and Chu, Xiangxiang},
+    author={Wang, Zengbin and Hu, Xuecai and Wang, Yong and Xiong, Feng and Zhang, Man and Chu, Xiangxiang},
     journal={arXiv preprint arXiv:2601.20354},
     year={2026}
   }
